@@ -6,7 +6,7 @@
 # The makeCacheMatrix function takes in an invertible matrix, x, and returns a 
 # list of four functions and stores x and Inv, which is the inverse of x. The 
 # super-assignment operator (<<-) is used to store x and Inv in the parent 
-# environment so that both can be retrieved without recalculation.   
+# environment so that both can be retrieved without recalculation. 
 
 makeCacheMatrix <- function(x = matrix()) {
   Inv <- NULL
